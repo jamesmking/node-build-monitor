@@ -4,19 +4,38 @@
     "numberOfBuilds": 12,
     "latestBuildOnly": true,
     "sortOrder": "date",
-    "debug": true
+    "debug": false
   },
   "services": [
     {
       "name": "Travis",
       "configuration": {
-        "slug": "DFE-Digital/login.dfe.oidc.clients"
+        "slug": "DFE-Digital/login.dfe.interactions"
       }
     },
     {
       "name": "Travis",
       "configuration": {
         "slug": "DFE-Digital/login.dfe.oidc"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.oidc.clients"
+      }
+    },
+
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.directories"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.saml-proxy"
       }
     }
   ]

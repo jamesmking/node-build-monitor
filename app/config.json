@@ -2,7 +2,7 @@
   "monitor": {
     "interval": 5000,
     "numberOfBuilds": 12,
-    "latestBuildOnly": false,
+    "latestBuildOnly": true,
     "sortOrder": "date",
     "debug": true
   },
@@ -10,13 +10,13 @@
     {
       "name": "Travis",
       "configuration": {
-        "slug": "marcells/bloggy"
+        "slug": "DFE-Digital/login.dfe.oidc.clients"
       }
     },
     {
       "name": "Travis",
       "configuration": {
-        "slug": "marcells/node-build-monitor"
+        "slug": "DFE-Digital/login.dfe.oidc"
       }
     }
   ]

@@ -42,7 +42,7 @@ module.exports = function () {
             return new Date(dateAsString);
         },
         getStatus = function (result, state) {
-            if (state === 'started') return "Blue";
+            if (state === 'started') return "Gold";
             if (state === 'created') return "Blue";
             if (state === 'canceled') return "Gray";
             if (result === null || result === 1) return "Red";

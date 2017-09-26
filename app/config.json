@@ -22,7 +22,7 @@
     {
       "name": "Travis",
       "configuration": {
-        "slug": "DFE-Digital/login.dfe.oidc.clients"
+        "slug": "DFE-Digital/login.dfe.hot-config"
       }
     },
 

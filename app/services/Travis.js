@@ -42,11 +42,11 @@ module.exports = function () {
             return new Date(dateAsString);
         },
         getStatus = function (result, state) {
-            if (state === 'started') return "Blue";
-            if (state === 'created') return "Blue";
-            if (state === 'canceled') return "Gray";
-            if (result === null || result === 1) return "Red";
-            if (result === 0) return "Green";
+            if (state === 'started') return "#937731";
+            if (state === 'created') return "#617fc7";
+            if (state === 'canceled') return "#949094";
+            if (result === null || result === 1) return "#993e47";
+            if (result === 0) return "#4e8156";
 
             return null;
         },

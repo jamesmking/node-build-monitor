@@ -7,7 +7,8 @@ html {
 body {
   padding: 0px;
   margin: 0px;
-  font: 14px 'open_sanscondensed_light', Helvetica, Arial, sans-serif;
+  font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  
   height: 100%;
 }
 
@@ -17,8 +18,7 @@ body {
 }
 
 .carbon-background {
-  background-image: url(/images/pattern-b8gl.png);
-  background-repeat: repeat;
+  background: #111;
 }
 
 .clear {

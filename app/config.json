@@ -25,7 +25,6 @@
         "slug": "DFE-Digital/login.dfe.hot-config"
       }
     },
-
     {
       "name": "Travis",
       "configuration": {
@@ -36,6 +35,18 @@
       "name": "Travis",
       "configuration": {
         "slug": "DFE-Digital/login.dfe.saml-proxy"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.request-verification"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.jwt-strategies"
       }
     }
   ]

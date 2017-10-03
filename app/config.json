@@ -54,6 +54,12 @@
       "configuration": {
         "slug": "DFE-Digital/login.dfe.api.auth"
       }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/node-build-monitor"
+      }
     }
   ]
 }

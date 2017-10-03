@@ -5,18 +5,6 @@ script: npm run-script ci
 before_script:
 - npm install -g grunt-cli
 - npm install -g pkg
-before_deploy:
-- npm run-script pkg
-deploy:
-  provider: releases
-  api_key:
-    secure: eF8lW5MUWQlU3atb6AgZ8a+y03pXtp6v829WqoUI6ODyKdYlTnlUqPYRfOXaSX8OmW1gyHS+38z9U7C0Q0b3jC5R4Sm0JfmbnhD6nO9MvD6pt3MijzIuhZxXT0f13BIVl7Gt/gA6nUvuH7yXuVaFeQyucuGmfnNiOz+ih46UfSw=
-  file_glob: true
-  file: "./release/*"
-  skip_cleanup: true
-  on:
-    repo: marcells/node-build-monitor
-    tags: true
 notifications:
   slack:
     secure: jEHd7WxjDx84cNLt0KwB9WTbbiOwQoHw1OW2QywCJFiL10Dv4uRU7jCgelO4bzyHiv1ulo6iG6Jj4A6Ur2xC6P0GHfh1B+0M4/ZPdEDmlo2VGBVdctl/U48seF9N43vWNYVmDOorrethtKjSfD6zHbuqNTLGSr80/UUgzG/J1d1vGMitPaoZkvNfbCl8VTqPJBp0Iy+6knbWp3erAu7YY2LV5P50fVSabARIefvHjIPpRu4xaq5EsjXMrNb6RtQbtEaWqqskdAZPMKoT2uEmn4+Mye36Lh+aHRDvjRCgRuGYxboWz/tkPjQ9jIfoMqdTwW9PbjJMpWKfLh8tIcPxUHspNa+sB69JlqXRbtF4+NxypUvnMT/TtqqkR7/upywyjtvTJwy+MN8iZTeMKioZcf/UFI33BXRPSo4WOYfhshju5ICDpWPte+r43b/PaxpI9v1MWNp8ezTv4ML9MLqIE5Yo+XyBe7KO/t2t8tGpqyP7k8te4h7TqILy5Uq8JiRANuyBuPVV3MbGlEcQzpovN+PTF0aBXtjk5rzLjhNyJw6lIl5ionmgOkBpHS5m45jzavDCf+pOcvAbuEZffeDPLPFHjI9ac1V4lz0Q9eGldwQ5KrBNBPKPwTSDkf2m1XLXF9YlBoXdpEs0Ma00ewBhZHUODEJJNqGcjyNPpVLTYTM=

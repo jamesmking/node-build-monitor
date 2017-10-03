@@ -48,6 +48,12 @@
       "configuration": {
         "slug": "DFE-Digital/login.dfe.jwt-strategies"
       }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.api.auth"
+      }
     }
   ]
 }

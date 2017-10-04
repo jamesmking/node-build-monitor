@@ -60,6 +60,18 @@
       "configuration": {
         "slug": "DFE-Digital/node-build-monitor"
       }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.examples.oidc-client"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.examples.saml-client"
+      }
     }
   ]
 }

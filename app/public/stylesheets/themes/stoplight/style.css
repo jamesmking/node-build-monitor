@@ -71,12 +71,12 @@ and (max-width: 1200px)
 
 .stoplight .flex-item-inner {
   background: transparent;
-  margin: 30px;
+  margin: 20px;
   padding: 20px;
   box-shadow: 0px 0px 18px 4px rgba(0,0,0,0.3);
   text-align: center;
-  margin-right: 0px;
-  margin-bottom: -4px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .flex-item .overlay {

@@ -57,3 +57,13 @@ define(['ko', 'knockoutExtensions', 'BuildMonitorServer', 'AppViewModel'], funct
         setInterval(app.updateBuildTimes, 1000);
     });
 });
+
+
+
+
+bubbly({
+  colorStart: "#949094", // default is blue-ish
+  colorStop: "#444244",// default is blue-ish
+  compose: "lighter", // default is "lighter"
+  shadowColor: "#cfc9cf", // default is #fff
+});

@@ -11,7 +11,7 @@
   border: 1px solid black;
 }
 
-.stoplight .middle { 
+.stoplight .middle {
   vertical-align: middle;
 }
 
@@ -39,12 +39,44 @@
   position: relative;
 }
 
+
+@media  screen
+and (max-width: 1024px)
+ {
+
+
+  .stoplight .flex-item {
+    float: left;
+    width: 100%;
+    color: transparent;
+    position: relative;
+  }
+
+}
+
+@media  screen
+and (min-width: 1024px)
+and (max-width: 1200px)
+{
+
+
+  .stoplight .flex-item {
+    float: left;
+    width: 50%;
+    color: transparent;
+    position: relative;
+  }
+
+}
+
 .stoplight .flex-item-inner {
   background: transparent;
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
-  box-shadow: 0px 0px 25px 8px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 18px 4px rgba(0,0,0,0.3);
   text-align: center;
+  margin-right: 0px;
+  margin-bottom: -4px;
 }
 
 .flex-item .overlay {

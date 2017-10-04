@@ -46,7 +46,7 @@ module.exports = function () {
             if (state === 'created') return "#617fc7";
             if (state === 'canceled') return "#949094";
             if (result === null || result === 1) return "#993e47";
-            if (result === 0) return "#4e8156";
+            if (result === 0) return "rgba(78, 129, 86, 0.75)";
 
             return null;
         },

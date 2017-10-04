@@ -6,7 +6,8 @@ define(['cookies'], function (cookies) {
     var settings = { };
 
     Object.defineProperty(settings, 'theme', {
-        get: function() { return cookies.get('theme') || 'default'; },
+        // get: function() { return cookies.get('theme') || 'stoplight'; },
+      get: function() { return 'stoplight'; },
         set: function(value) { cookies.set('theme', value); },
         enumerable: true
     });

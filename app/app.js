@@ -87,3 +87,4 @@ monitor.on('buildsChanged', function (changes) {
 
 // run monitor
 monitor.run();
+

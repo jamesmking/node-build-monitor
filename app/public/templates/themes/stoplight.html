@@ -17,11 +17,11 @@
           </span>
         </div>
         <div class="clear"></div>
+        <img  class="avatar"  height="100%" data-bind="attr : {src: requestedFor}" src="" />
         <div class="medium-height nowrap prio-vertical-three">
-          <span class="middle requestedFor-block">
-            <span class="middle fa fa-user"></span>
-            <span data-bind="text: requestedFor" class="middle for"></span>
-          </span>
+          <!--<span class="middle requestedFor-block">-->
+            <!--<span data-bind="text: requestedFor" class="middle for"></span>-->
+          <!--</span>-->
           <span class="middle warnings prio-horizontal-one">
             <span data-bind="visible: hasWarnings" class="middle fa fa-exclamation-triangle"></span>
             <span data-bind="visible: hasErrors" class="middle fa fa-times-circle"></span>
@@ -38,3 +38,4 @@
     </div>
   </div>
 </div>
+

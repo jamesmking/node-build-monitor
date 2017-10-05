@@ -69,6 +69,15 @@ and (max-width: 1200px)
 
 }
 
+ .avatar{
+  position: absolute;
+   left: 10px;
+   bottom: 10px;
+   height: 60%;
+   opacity: 0.9;
+   border-radius: 50%;
+   border: 2px solid #fff;
+}
 .stoplight .flex-item-inner {
   background: transparent;
   margin: 20px;
@@ -77,6 +86,9 @@ and (max-width: 1200px)
   text-align: center;
   margin-right: 5px;
   margin-bottom: 5px;
+  position: relative;
+
+  overflow: hidden;
 }
 
 .flex-item .overlay {
@@ -107,9 +119,13 @@ and (max-width: 1200px)
 }
 
 .stoplight .flex-item .project {
-  color: #DDDDDD;
+  color: #fff;
   font-size: 16pt;
   font-weight: normal;
+  float: left;
+  position: relative;
+  top: -10px;
+  left: -5px;
 }
 
 .stoplight .flex-item .project-definition-separator {
@@ -126,15 +142,29 @@ and (max-width: 1200px)
 }
 
 .stoplight .flex-item .number {
+
   color: #DDDDDD;
   font-size: 16pt;
-  line-height: 28pt;
+  /* line-height: 28pt; */
+  float: right;
+  font-size: 10em;
+  position: absolute;
+  top: -3px;
+  right: 10px;
+  opacity: 0.2;
 }
 
 .stoplight .flex-item .duration-block {
   color: #999999;
   float: right;
   font-size: 10pt;
+  color: #fff;
+  float: left;
+  font-size: 16pt;
+  position: absolute;
+  left: 125px;
+  text-align: left;
+  bottom: 34px;
 }
 
 .stoplight .flex-item .duration-icon {
@@ -142,15 +172,16 @@ and (max-width: 1200px)
 }
 
 .stoplight .flex-item .time {
-  color: #AAAAAA;
+  /*color: #AAAAAA;*/
   margin-left: 10px;
 }
 
 .stoplight .flex-item .status {
-  color: #DDDDDD;
+  /*color: #DDDDDD;*/
   float: left;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14pt;
+  display: none;
 }
 
 .stoplight .flex-item .reason {

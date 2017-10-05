@@ -65,5 +65,6 @@ bubbly({
   colorStart: "#949094", // default is blue-ish
   colorStop: "#444244",// default is blue-ish
   compose: "lighter", // default is "lighter"
-  shadowColor: "#cfc9cf", // default is #fff
+  shadowColor: "#cfc9cf", // default is #fff,
+  bubbles: 30
 });

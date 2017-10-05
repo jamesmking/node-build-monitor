@@ -132,8 +132,8 @@ and (max-width: 1200px)
   font-weight: normal;
   float: left;
   position: relative;
-  top: -10px;
-  left: -5px;
+  top: -16px;
+  left: -17px;
   font-weight: 500;
   text-shadow: 0px 1px 1px #111;
   text-transform: capitalize;
@@ -174,7 +174,7 @@ and (max-width: 1200px)
   position: absolute;
   left: 125px;
   text-align: left;
-  bottom: 34px;
+  bottom: 40px;
   font-weight: 300;
   text-shadow: 0px 1px 1px #111;
 }

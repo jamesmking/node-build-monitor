@@ -152,7 +152,7 @@ and (max-width: 1200px)
 
 .stoplight .flex-item .number {
 
-  color: #DDDDDD;
+  color: rgba(0,0,0,0.075);
   font-size: 16pt;
   /* line-height: 28pt; */
   float: right;
@@ -160,7 +160,7 @@ and (max-width: 1200px)
   position: absolute;
   top: -15px;
   right: 10px;
-  opacity: 0.2;
+  /*opacity: 0.2;*/
 }
 
 .stoplight .flex-item .duration-block {

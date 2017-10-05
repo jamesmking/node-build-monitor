@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif!important;
+}
 .stoplight .clear {
   clear: both;
 }
@@ -76,7 +82,8 @@ and (max-width: 1200px)
    height: 60%;
    opacity: 0.9;
    border-radius: 50%;
-   border: 2px solid #fff;
+   border: 2px solid rgba(255,255,255,1);
+   /*box-shadow: 0px 1px 1px #111;*/
 }
 .stoplight .flex-item-inner {
   background: transparent;
@@ -126,6 +133,9 @@ and (max-width: 1200px)
   position: relative;
   top: -10px;
   left: -5px;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px #111;
+  text-transform: capitalize;
 }
 
 .stoplight .flex-item .project-definition-separator {
@@ -136,7 +146,6 @@ and (max-width: 1200px)
 
 .stoplight .flex-item .definition {
   color: #FFFFFF;
-  font-family: 'open_sans_condensedbold';
   font-size: 22pt;
   line-height: 34pt;
 }
@@ -149,7 +158,7 @@ and (max-width: 1200px)
   float: right;
   font-size: 10em;
   position: absolute;
-  top: -3px;
+  top: -15px;
   right: 10px;
   opacity: 0.2;
 }
@@ -165,6 +174,8 @@ and (max-width: 1200px)
   left: 125px;
   text-align: left;
   bottom: 34px;
+  font-weight: 300;
+  text-shadow: 0px 1px 1px #111;
 }
 
 .stoplight .flex-item .duration-icon {
@@ -179,7 +190,6 @@ and (max-width: 1200px)
 .stoplight .flex-item .status {
   /*color: #DDDDDD;*/
   float: left;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14pt;
   display: none;
 }

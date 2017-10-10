@@ -72,6 +72,12 @@
       "configuration": {
         "slug": "DFE-Digital/login.dfe.examples.saml-client"
       }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.portal"
+      }
     }
   ]
 }

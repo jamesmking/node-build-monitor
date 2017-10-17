@@ -8,7 +8,7 @@ body {
   padding: 0px;
   margin: 0px;
   font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-
+  overflow: hidden;
   height: 100%;
 }
 
@@ -17,6 +17,7 @@ body {
   width: 100%;
   position: absolute;
   top: 1px;
+  background-color: rgba(25,25,25, 0.3);
 }
 
 .carbon-background {
@@ -198,28 +199,29 @@ Options
 
 
 
-/*.videobg {*/
+.videobg {
   /*position: fixed;*/
-  /*right: 0;*/
-  /*bottom: 0;*/
-  /*min-width: 100%;*/
-  /*min-height: 100%;*/
-  /*width: auto;*/
-  /*height: auto;*/
-  /*pointer-events: none;*/
-/*}*/
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  pointer-events: none;
+}
 
 .container {
   height: 100vh;
   overflow: hidden;
   position: relative;
   background: rgba(146, 137, 183, 0.5);
+  opacity: 0.4;
 }
 
-/*.logo-img {*/
-  /*position: absolute;*/
-  /*left: 50%;*/
-  /*margin: -134px 0 0 -200px;*/
-  /*width: 400px;*/
-  /*top: 50%;*/
-/*}*/
+.logo-img {
+  position: absolute;
+  left: 50%;
+  margin: -134px 0 0 -200px;
+  width: 400px;
+  top: 50%;
+}

@@ -84,6 +84,18 @@
       "configuration": {
         "slug": "DFE-Digital/login.dfe.notifications"
       }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.organisations"
+      }
+    },
+    {
+      "name": "Travis",
+      "configuration": {
+        "slug": "DFE-Digital/login.dfe.validation"
+      }
     }
   ]
 }
